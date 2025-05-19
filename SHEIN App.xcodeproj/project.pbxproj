@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F462634A2DD69EF7001D9E52 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46263492DD69EF7001D9E52 /* SearchVC.swift */; };
+		F462634C2DD69F08001D9E52 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462634B2DD69F08001D9E52 /* ProfileVC.swift */; };
+		F46263512DD6A471001D9E52 /* LikeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46263502DD6A471001D9E52 /* LikeVC.swift */; };
+		F46263542DD6ABD0001D9E52 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46263532DD6ABD0001D9E52 /* CollectionViewCell1.swift */; };
+		F4925E482DD6D2A9009E487C /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E472DD6D2A9009E487C /* CollectionViewCell2.swift */; };
+		F4925E4A2DD6E3D9009E487C /* BuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E492DD6E3D9009E487C /* BuyVC.swift */; };
+		F4925E4D2DD6E811009E487C /* BuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E4C2DD6E811009E487C /* BuyTableViewCell.swift */; };
+		F4925E4F2DD6EE79009E487C /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E4E2DD6EE78009E487C /* CartItem.swift */; };
+		F4925E522DD924A2009E487C /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E512DD924A2009E487C /* MainTabBar.swift */; };
+		F4925E542DD9399B009E487C /* LikesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E532DD9399B009E487C /* LikesTableViewCell.swift */; };
+		F4925E562DD9601C009E487C /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4925E552DD9601C009E487C /* NavigationViewController.swift */; };
+		F49D14752DD5832000AC700D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D14742DD5832000AC700D /* AppDelegate.swift */; };
+		F49D14772DD5832000AC700D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D14762DD5832000AC700D /* SceneDelegate.swift */; };
+		F49D14792DD5832000AC700D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D14782DD5832000AC700D /* Home.swift */; };
+		F49D147C2DD5832000AC700D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D147A2DD5832000AC700D /* Main.storyboard */; };
+		F49D147F2DD5832000AC700D /* SHEIN_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F49D147D2DD5832000AC700D /* SHEIN_App.xcdatamodeld */; };
+		F49D14812DD5832400AC700D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D14802DD5832400AC700D /* Assets.xcassets */; };
+		F49D14842DD5832400AC700D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49D14822DD5832400AC700D /* LaunchScreen.storyboard */; };
+		F49D148F2DD583A600AC700D /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D148E2DD583A600AC700D /* LogInVC.swift */; };
+		F49D14912DD583B300AC700D /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D14902DD583B300AC700D /* SignUpVC.swift */; };
+		F49D14932DD584E000AC700D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D14922DD584E000AC700D /* WelcomeVC.swift */; };
+		F4CC33D02DD6AE8F007AA0FD /* ManagerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC33CF2DD6AE8F007AA0FD /* ManagerDetails.swift */; };
+		F4CC33D22DD6AE9C007AA0FD /* ManagerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC33D12DD6AE9C007AA0FD /* ManagerBrain.swift */; };
+		F4CC33D52DD6BB9E007AA0FD /* SelectedFromCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC33D42DD6BB9E007AA0FD /* SelectedFromCollectionVC.swift */; };
+		F4E385F82DD9B61500BB4CF2 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E385F72DD9B61500BB4CF2 /* CategoryTableViewCell.swift */; };
+		F4EF174C2DDAA6F200DCE3C1 /* PayNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF174B2DDAA6F200DCE3C1 /* PayNowVC.swift */; };
+		F4EF174F2DDAB44300DCE3C1 /* VisaPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF174E2DDAB44300DCE3C1 /* VisaPayVC.swift */; };
+		F4EF17512DDAB45200DCE3C1 /* PayPalPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF17502DDAB45200DCE3C1 /* PayPalPayVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F46263492DD69EF7001D9E52 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		F462634B2DD69F08001D9E52 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F46263502DD6A471001D9E52 /* LikeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeVC.swift; sourceTree = "<group>"; };
+		F46263532DD6ABD0001D9E52 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		F4925E472DD6D2A9009E487C /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		F4925E492DD6E3D9009E487C /* BuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyVC.swift; sourceTree = "<group>"; };
+		F4925E4C2DD6E811009E487C /* BuyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTableViewCell.swift; sourceTree = "<group>"; };
+		F4925E4E2DD6EE78009E487C /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		F4925E512DD924A2009E487C /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		F4925E532DD9399B009E487C /* LikesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesTableViewCell.swift; sourceTree = "<group>"; };
+		F4925E552DD9601C009E487C /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		F49D14712DD5832000AC700D /* SHEIN App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHEIN App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D14742DD5832000AC700D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49D14762DD5832000AC700D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F49D14782DD5832000AC700D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F49D147B2DD5832000AC700D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49D147E2DD5832000AC700D /* SHEIN_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SHEIN_App.xcdatamodel; sourceTree = "<group>"; };
+		F49D14802DD5832400AC700D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49D14832DD5832400AC700D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F49D14852DD5832400AC700D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49D148E2DD583A600AC700D /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		F49D14902DD583B300AC700D /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F49D14922DD584E000AC700D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		F4CC33CF2DD6AE8F007AA0FD /* ManagerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerDetails.swift; sourceTree = "<group>"; };
+		F4CC33D12DD6AE9C007AA0FD /* ManagerBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerBrain.swift; sourceTree = "<group>"; };
+		F4CC33D42DD6BB9E007AA0FD /* SelectedFromCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedFromCollectionVC.swift; sourceTree = "<group>"; };
+		F4E385F72DD9B61500BB4CF2 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		F4EF174B2DDAA6F200DCE3C1 /* PayNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayNowVC.swift; sourceTree = "<group>"; };
+		F4EF174E2DDAB44300DCE3C1 /* VisaPayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaPayVC.swift; sourceTree = "<group>"; };
+		F4EF17502DDAB45200DCE3C1 /* PayPalPayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalPayVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49D146E2DD5832000AC700D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46263522DD6ABB4001D9E52 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F46263532DD6ABD0001D9E52 /* CollectionViewCell1.swift */,
+				F4925E472DD6D2A9009E487C /* CollectionViewCell2.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		F4925E4B2DD6E7EF009E487C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F4925E4C2DD6E811009E487C /* BuyTableViewCell.swift */,
+				F4925E532DD9399B009E487C /* LikesTableViewCell.swift */,
+				F4E385F72DD9B61500BB4CF2 /* CategoryTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		F4925E502DD9247A009E487C /* TabBarConroller */ = {
+			isa = PBXGroup;
+			children = (
+				F4925E512DD924A2009E487C /* MainTabBar.swift */,
+				F4925E552DD9601C009E487C /* NavigationViewController.swift */,
+			);
+			path = TabBarConroller;
+			sourceTree = "<group>";
+		};
+		F49D14682DD5832000AC700D = {
+			isa = PBXGroup;
+			children = (
+				F49D14732DD5832000AC700D /* SHEIN App */,
+				F49D14722DD5832000AC700D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49D14722DD5832000AC700D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49D14712DD5832000AC700D /* SHEIN App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49D14732DD5832000AC700D /* SHEIN App */ = {
+			isa = PBXGroup;
+			children = (
+				F49D14742DD5832000AC700D /* AppDelegate.swift */,
+				F49D14762DD5832000AC700D /* SceneDelegate.swift */,
+				F49D148D2DD5835D00AC700D /* Models */,
+				F49D148B2DD5834900AC700D /* View */,
+				F49D148C2DD5835100AC700D /* Controller */,
+				F49D14852DD5832400AC700D /* Info.plist */,
+				F49D147D2DD5832000AC700D /* SHEIN_App.xcdatamodeld */,
+			);
+			path = "SHEIN App";
+			sourceTree = "<group>";
+		};
+		F49D148B2DD5834900AC700D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F49D147A2DD5832000AC700D /* Main.storyboard */,
+				F49D14802DD5832400AC700D /* Assets.xcassets */,
+				F49D14822DD5832400AC700D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F49D148C2DD5835100AC700D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4925E502DD9247A009E487C /* TabBarConroller */,
+				F49D14942DD584EC00AC700D /* Logged */,
+				F49D14952DD584FF00AC700D /* Homes */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F49D148D2DD5835D00AC700D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC33CF2DD6AE8F007AA0FD /* ManagerDetails.swift */,
+				F4CC33D12DD6AE9C007AA0FD /* ManagerBrain.swift */,
+				F4925E4E2DD6EE78009E487C /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F49D14942DD584EC00AC700D /* Logged */ = {
+			isa = PBXGroup;
+			children = (
+				F49D14922DD584E000AC700D /* WelcomeVC.swift */,
+				F49D148E2DD583A600AC700D /* LogInVC.swift */,
+				F49D14902DD583B300AC700D /* SignUpVC.swift */,
+			);
+			path = Logged;
+			sourceTree = "<group>";
+		};
+		F49D14952DD584FF00AC700D /* Homes */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC33D32DD6BB72007AA0FD /* HomeControllers */,
+				F4925E4B2DD6E7EF009E487C /* TableView */,
+				F46263522DD6ABB4001D9E52 /* Collection */,
+			);
+			path = Homes;
+			sourceTree = "<group>";
+		};
+		F4CC33D32DD6BB72007AA0FD /* HomeControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F49D14782DD5832000AC700D /* Home.swift */,
+				F4CC33D42DD6BB9E007AA0FD /* SelectedFromCollectionVC.swift */,
+				F46263502DD6A471001D9E52 /* LikeVC.swift */,
+				F4925E492DD6E3D9009E487C /* BuyVC.swift */,
+				F46263492DD69EF7001D9E52 /* SearchVC.swift */,
+				F462634B2DD69F08001D9E52 /* ProfileVC.swift */,
+				F4EF174D2DDAA71300DCE3C1 /* PayNow */,
+			);
+			path = HomeControllers;
+			sourceTree = "<group>";
+		};
+		F4EF174D2DDAA71300DCE3C1 /* PayNow */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF174B2DDAA6F200DCE3C1 /* PayNowVC.swift */,
+				F4EF174E2DDAB44300DCE3C1 /* VisaPayVC.swift */,
+				F4EF17502DDAB45200DCE3C1 /* PayPalPayVC.swift */,
+			);
+			path = PayNow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49D14702DD5832000AC700D /* SHEIN App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D14882DD5832400AC700D /* Build configuration list for PBXNativeTarget "SHEIN App" */;
+			buildPhases = (
+				F49D146D2DD5832000AC700D /* Sources */,
+				F49D146E2DD5832000AC700D /* Frameworks */,
+				F49D146F2DD5832000AC700D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SHEIN App";
+			productName = "SHEIN App";
+			productReference = F49D14712DD5832000AC700D /* SHEIN App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49D14692DD5832000AC700D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F49D14702DD5832000AC700D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F49D146C2DD5832000AC700D /* Build configuration list for PBXProject "SHEIN App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49D14682DD5832000AC700D;
+			productRefGroup = F49D14722DD5832000AC700D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49D14702DD5832000AC700D /* SHEIN App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49D146F2DD5832000AC700D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D14842DD5832400AC700D /* LaunchScreen.storyboard in Resources */,
+				F49D14812DD5832400AC700D /* Assets.xcassets in Resources */,
+				F49D147C2DD5832000AC700D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49D146D2DD5832000AC700D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC33D52DD6BB9E007AA0FD /* SelectedFromCollectionVC.swift in Sources */,
+				F4CC33D22DD6AE9C007AA0FD /* ManagerBrain.swift in Sources */,
+				F4EF17512DDAB45200DCE3C1 /* PayPalPayVC.swift in Sources */,
+				F4925E542DD9399B009E487C /* LikesTableViewCell.swift in Sources */,
+				F462634A2DD69EF7001D9E52 /* SearchVC.swift in Sources */,
+				F49D14792DD5832000AC700D /* Home.swift in Sources */,
+				F49D147F2DD5832000AC700D /* SHEIN_App.xcdatamodeld in Sources */,
+				F462634C2DD69F08001D9E52 /* ProfileVC.swift in Sources */,
+				F49D14752DD5832000AC700D /* AppDelegate.swift in Sources */,
+				F4EF174F2DDAB44300DCE3C1 /* VisaPayVC.swift in Sources */,
+				F46263512DD6A471001D9E52 /* LikeVC.swift in Sources */,
+				F49D148F2DD583A600AC700D /* LogInVC.swift in Sources */,
+				F4925E522DD924A2009E487C /* MainTabBar.swift in Sources */,
+				F4925E4A2DD6E3D9009E487C /* BuyVC.swift in Sources */,
+				F4925E562DD9601C009E487C /* NavigationViewController.swift in Sources */,
+				F49D14912DD583B300AC700D /* SignUpVC.swift in Sources */,
+				F46263542DD6ABD0001D9E52 /* CollectionViewCell1.swift in Sources */,
+				F49D14932DD584E000AC700D /* WelcomeVC.swift in Sources */,
+				F4CC33D02DD6AE8F007AA0FD /* ManagerDetails.swift in Sources */,
+				F4E385F82DD9B61500BB4CF2 /* CategoryTableViewCell.swift in Sources */,
+				F4925E482DD6D2A9009E487C /* CollectionViewCell2.swift in Sources */,
+				F4925E4F2DD6EE79009E487C /* CartItem.swift in Sources */,
+				F4925E4D2DD6E811009E487C /* BuyTableViewCell.swift in Sources */,
+				F4EF174C2DDAA6F200DCE3C1 /* PayNowVC.swift in Sources */,
+				F49D14772DD5832000AC700D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F49D147A2DD5832000AC700D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49D147B2DD5832000AC700D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49D14822DD5832400AC700D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49D14832DD5832400AC700D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49D14862DD5832400AC700D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49D14872DD5832400AC700D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49D14892DD5832400AC700D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K677TQ5Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SHEIN App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marwan.cam.SHEIN-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49D148A2DD5832400AC700D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K677TQ5Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SHEIN App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marwan.cam.SHEIN-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49D146C2DD5832000AC700D /* Build configuration list for PBXProject "SHEIN App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D14862DD5832400AC700D /* Debug */,
+				F49D14872DD5832400AC700D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D14882DD5832400AC700D /* Build configuration list for PBXNativeTarget "SHEIN App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D14892DD5832400AC700D /* Debug */,
+				F49D148A2DD5832400AC700D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F49D147D2DD5832000AC700D /* SHEIN_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F49D147E2DD5832000AC700D /* SHEIN_App.xcdatamodel */,
+			);
+			currentVersion = F49D147E2DD5832000AC700D /* SHEIN_App.xcdatamodel */;
+			path = SHEIN_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F49D14692DD5832000AC700D /* Project object */;
+}
